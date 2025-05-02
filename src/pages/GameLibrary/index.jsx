@@ -53,7 +53,7 @@ export default function GameLibrary() {
   return (
     <main>
       <div className={styles.content}>
-        <h2>Biblioteca de jogos</h2>
+        <h1>Biblioteca de jogos</h1>
         <div className={styles.contentForm}>
           <FormLibrary
             handleSubmit={handleSubmit}
@@ -77,6 +77,9 @@ export default function GameLibrary() {
               onClick={() => removeGame(Game.id)}
             />
           ))}
+        </div>
+        <div className="contentFilter">
+          
         </div>
       </div>
     </main>

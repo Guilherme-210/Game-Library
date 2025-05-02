@@ -76,13 +76,15 @@
 
 .containerThemes {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   gap: 0.75rem;
   margin-top: 0.4rem;
+  font-size: small;
+  max-width: 100%;
 }
 
 .themesSpan {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem .7rem;
   border-radius: 8px;
   background-color: #2a2a3b;
   color: #ffffff;

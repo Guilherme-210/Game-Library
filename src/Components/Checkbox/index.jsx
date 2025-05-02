@@ -32,7 +32,7 @@ export default function CheckboxThemes({ selectedThemes, setSelectedThemes }) {
   }
 
   return (
-    <div>
+    <div className={styles.container}>
       <p>Gênero</p>
       <div className={styles.containerCheckbox}>
         {themesList.map((theme) => (
