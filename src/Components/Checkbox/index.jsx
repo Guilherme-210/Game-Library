@@ -22,12 +22,25 @@ const themesList = [
 ]
 
 
-export default function CheckboxThemes({ selectedThemes, setSelectedThemes }) {
+export default function CheckboxThemes({
+  selectedThemes,
+  setSelectedThemes,
+  selectedGenre,
+  setSelectedGenre,
+}) {
   const toggleTheme = (theme) => {
     if (selectedThemes.includes(theme)) {
       setSelectedThemes(selectedThemes.filter((t) => t !== theme))
     } else {
       setSelectedThemes([...selectedThemes, theme])
+    }
+  }
+
+  const handleFilterClick = (genre) => {
+    if (selectedGenre === genre) {
+      setSelectedGenre("")
+    } else {
+      setSelectedGenre(genre)
     }
   }
 
@@ -46,7 +59,9 @@ export default function CheckboxThemes({ selectedThemes, setSelectedThemes }) {
               type="checkbox"
               value={theme.name}
               checked={selectedThemes.includes(theme.name)}
-              onChange={() => toggleTheme(theme.name)}
+              onChange={() => {
+                ;`${toggleTheme(theme.name)} ${handleFilterClick(theme.name)}`
+              }}
             />
             {theme.name}
           </label>
