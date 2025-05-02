@@ -7,7 +7,20 @@ const themesList = [
   { name: "RPG", color: "rpg" },
   { name: "Corrida", color: "racing" },
   { name: "Esportes", color: "sports" },
+  { name: "Plataforma", color: "platform" },
+  { name: "Puzzle", color: "puzzle" },
+  { name: "Simulação", color: "simulation" },
+  { name: "Estratégia", color: "strategy" },
+  { name: "MMO", color: "mmo" },
+  { name: "FPS", color: "fps" },
+  { name: "Luta", color: "fighting" },
+  { name: "Stealth", color: "stealth" },
+  { name: "Sandbox", color: "sandbox" },
+  { name: "Sobrevivência", color: "survival" },
+  { name: "Música", color: "music" },
+  { name: "Indie", color: "indie" },
 ]
+
 
 export default function CheckboxThemes({ selectedThemes, setSelectedThemes }) {
   const toggleTheme = (theme) => {

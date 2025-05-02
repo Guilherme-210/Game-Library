@@ -24,25 +24,62 @@
 .action {
   background-color: #ff4d4d;
 }
-
 .adventure {
   background-color: #4da6ff;
 }
-
 .horror {
   background-color: #7a00cc;
 }
-
 .rpg {
   background-color: #ff9900;
 }
-
 .racing {
   background-color: #00cc99;
 }
-
 .sports {
   background-color: #33cc33;
+}
+.platform {
+  background-color: #ff66cc;
+}
+.puzzle {
+  background-color: #ffff66;
+  color: #333;
+}
+.simulation {
+  background-color: #66ccff;
+}
+.strategy {
+  background-color: #cc99ff;
+}
+.mmo {
+  background-color: #ff9966;
+}
+.fps {
+  background-color: #cc3333;
+  color: #fff;
+}
+.fighting {
+  background-color: #6600cc;
+  color: #fff;
+}
+.stealth {
+  background-color: #444444;
+  color: #eee;
+}
+.sandbox {
+  background-color: #ffaa00;
+}
+.survival {
+  background-color: #228b22;
+  color: #fff;
+}
+.music {
+  background-color: #ff66ff;
+}
+.indie {
+  background-color: #999999;
+  color: #000;
 }
 
 /* Efeitos extras */

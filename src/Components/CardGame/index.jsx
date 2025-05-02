@@ -9,7 +9,20 @@ export default function CardGame({ Game, onClick }) {
     RPG: styles.rpg,
     Corrida: styles.racing,
     Esportes: styles.sports,
+    Plataforma: styles.platform,
+    Puzzle: styles.puzzle,
+    Simulação: styles.simulation,
+    Estratégia: styles.strategy,
+    MMO: styles.mmo,
+    FPS: styles.fps,
+    Luta: styles.fighting,
+    Stealth: styles.stealth,
+    Sandbox: styles.sandbox,
+    Sobrevivência: styles.survival,
+    Música: styles.music,
+    Indie: styles.indie,
   }
+
 
   return (
     <div className={styles.content}>
