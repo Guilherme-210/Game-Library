@@ -1,0 +1,31 @@
+/* Container geral do formulário */
+.contentForm {
+  display: grid;
+  grid-template-areas:
+    "Grid1 Grid2 Grid3"
+    "Grid1 Grid2 Grid3"
+    "Grid4 Grid2 Grid3";
+  grid-template-columns: 1fr 4fr;
+  gap: 1.2rem;
+  padding: 1.5rem;
+  background-color: #1e1e2f;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  /* max-width: 600px; */
+  margin: 0;
+}
+
+.divGrid1{
+  grid-area: Grid1;
+}
+.divGrid2{
+  grid-area: Grid2;
+}
+.divGrid3{
+  grid-area: Grid3;
+}
+.divGrid4{
+  grid-area: Grid4;
+}
+

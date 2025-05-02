@@ -1,0 +1,51 @@
+.containerCheckbox {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.75rem;
+  margin-top: 0.4rem;
+}
+
+.checkboxLabel {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #2a2a3b;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+  user-select: none;
+}
+
+.checkboxLabel input {
+  display: none;
+}
+
+/* Estilos por tema */
+.action {
+  background-color: #ff4d4d;
+}
+
+.adventure {
+  background-color: #4da6ff;
+}
+
+.horror {
+  background-color: #7a00cc;
+}
+
+.rpg {
+  background-color: #ff9900;
+}
+
+.racing {
+  background-color: #00cc99;
+}
+
+.sports {
+  background-color: #33cc33;
+}
+
+/* Efeitos extras */
+.checkboxLabel:hover {
+  opacity: 0.85;
+}
